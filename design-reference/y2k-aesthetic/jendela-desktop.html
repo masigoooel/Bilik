@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Jendela Desktop</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; background: {{bg}}; overflow: hidden; font-family: 'Space Mono', 'Courier New', monospace; color: #111">
+<sc-for list="{{wins}}" as="w" hint-placeholder-count="2">
+<div style="position: absolute; left: {{w.x}}; top: {{w.y}}; width: 820px; box-sizing: border-box; padding: 4px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040, {{w.sh}}">
+<div style="height: 40px; padding: 0 6px 0 12px; background: {{accent}}; color: #ffffff; display: flex; align-items: center; justify-content: space-between">
+<span style="font-family: 'Silkscreen', monospace; font-size: 18px">{{w.title}}</span>
+<div style="display: flex; gap: 4px">
+<div style="width: 28px; height: 26px; background: #D4D0C8; box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #404040; color: #111; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">_</div>
+<div style="width: 28px; height: 26px; background: #D4D0C8; box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #404040; color: #111; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">□</div>
+<div style="width: 28px; height: 26px; background: #D4D0C8; box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #404040; color: #111; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center">×</div>
+</div>
+</div>
+<div style="margin-top: 4px; height: 500px; background: #ECEAE5; box-shadow: inset 2px 2px 0 #808080; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a5852">
+<svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 18px; font-weight: 700">{{w.label}}</div>
+</div>
+<div style="height: 26px; margin-top: 4px; padding: 0 10px; font-size: 14px; display: flex; align-items: center; box-shadow: inset 1px 1px 0 #808080">1080 × 1350 px · 100%</div>
+</div>
+</sc-for>
+<div style="position: absolute; left: 0; top: 1286px; width: 1080px; height: 64px; box-sizing: border-box; padding: 0 12px; background: #D4D0C8; box-shadow: inset 0 2px 0 #ffffff; display: flex; align-items: center; justify-content: space-between">
+<div style="height: 44px; padding: 0 18px; box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #404040; display: flex; align-items: center; font-family: 'Silkscreen', monospace; font-size: 20px">mulai</div>
+<div style="height: 44px; padding: 0 18px; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #fff; display: flex; align-items: center; font-size: 18px; font-weight: 700">17/10/26 16:20</div>
+</div>
+<div style="position: absolute; left: 930px; top: 70px; width: 110px; display: flex; flex-direction: column; align-items: center; gap: 6px; color: #fff; font-family: 'Silkscreen', monospace; font-size: 15px"><div style="width: 60px; height: 46px; background: #F2C94C; border: 2px solid #111; border-radius: 4px 12px 4px 4px"></div><span>foto</span></div>
+<div style="position: absolute; left: 930px; top: 190px; width: 110px; display: flex; flex-direction: column; align-items: center; gap: 6px; color: #fff; font-family: 'Silkscreen', monospace; font-size: 15px"><div style="width: 46px; height: 54px; background: #D4D0C8; border: 2px solid #111; border-radius: 2px 2px 8px 8px"></div><span>sampah</span></div>
+<div style="position: absolute; left: 560px; top: 560px; width: 400px; box-sizing: border-box; padding: 4px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #404040, 6px 8px 0 rgba(0,0,0,0.25); z-index: 3"><div style="height: 34px; padding: 0 10px; background: {{accent}}; color: #fff; display: flex; align-items: center; font-family: 'Silkscreen', monospace; font-size: 16px">simpan foto</div><div style="padding: 18px; display: flex; flex-direction: column; gap: 16px; font-size: 16px"><span>simpan 2 foto ke folder?</span><div style="display: flex; justify-content: flex-end; gap: 10px"><span style="padding: 6px 22px; box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #404040; outline: 1px dotted #111; outline-offset: -6px">Ya</span><span style="padding: 6px 18px; box-shadow: inset 2px 2px 0 #fff, inset -2px -2px 0 #404040">Tidak</span></div></div></div>
+<svg style="z-index: 4; position: absolute; left: 770px; top: 690px" width="44" height="60" viewBox="0 0 22 30" aria-hidden="true"><path d="M2 2 L2 24 L8 18 L12 28 L16 26 L12 16 L20 16 Z" fill="#ffffff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"></path></svg>
+<div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1.5px) 0 0 / 4px 4px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg":{"editor":"color","default":"#3A8C8C","options":["#3A8C8C","#6B7FD7","#E79BB8","#2B2B2B"]},"accent":{"editor":"color","default":"#1F3A8A","options":["#1F3A8A","#8A1F5A","#1F6B3A","#333333"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+bg: this.props.bg ?? '#3A8C8C',
+accent: this.props.accent ?? '#1F3A8A',
+wins: [
+{ x: '60px', y: '60px', title: 'foto_01.jpg', label: 'FOTO 1', sh: '4px 4px 0 rgba(0,0,0,0.15)' },
+{ x: '200px', y: '660px', title: 'foto_02.jpg', label: 'FOTO 2', sh: '12px 14px 0 rgba(0,0,0,0.35)' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

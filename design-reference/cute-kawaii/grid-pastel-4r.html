@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Grid Pastel 4R</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo&amp;family=Nunito:wght@600;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#3B1F4A}a:hover{color:#1f0f28}
+</style>
+</helmet>
+<div style="position: relative; width: 1200px; height: 1800px; box-sizing: border-box; padding: 72px; background: {{bg}}; display: flex; flex-direction: column; gap: 40px; font-family: 'Nunito', 'Trebuchet MS', sans-serif; color: #3B1F4A; overflow: hidden">
+<svg style="position: absolute; top: 48px; right: 90px" width="96" height="96" viewBox="0 0 24 24" fill="#FFD84D" stroke="#3B1F4A" stroke-width="1" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7-6.2-3.7-6.2 3.7 1.6-7L2 9.2l7.1-.6z"></path></svg>
+<svg style="position: absolute; bottom: 70px; left: 70px" width="72" height="72" viewBox="0 0 24 24" fill="#FF8FAB" stroke="#3B1F4A" stroke-width="1" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1.2 8.5 3.3 5 6.8 5c2.1 0 3.5 1.2 5.2 3 1.7-1.8 3.1-3 5.2-3 3.5 0 5.6 3.5 4.3 6.8C19.5 16.4 12 21 12 21z"></path></svg>
+<div style="height: 180px; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px">
+<div style="font-family: 'Caprasimo', Georgia, serif; font-size: 104px; line-height: 0.95">hari minggu</div>
+<div style="font-size: 26px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase">photobox · 17 okt 2026</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px">
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="4">
+<div style="background: #ffffff; padding: 16px; border-radius: 20px; border: 3px solid #3B1F4A; outline: 3px dashed #3B1F4A; outline-offset: 9px; transform: rotate({{p.tilt}})">
+<div style="height: 540px; border-radius: 10px; background: #F3EEF6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #6E5A7B">
+<svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 22px; font-weight: 800">{{p.label}}</div>
+</div>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1; display: flex; align-items: flex-end; justify-content: flex-end">
+<div style="font-family: 'Caprasimo', Georgia, serif; font-size: 40px">no. 01</div>
+</div>
+<div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.18), transparent 50%), radial-gradient(ellipse at 50% 50%, transparent 65%, rgba(0,0,0,0.08) 100%)"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg":{"editor":"color","default":"#F9D9E3","options":["#F9D9E3","#D9E8F9","#E3F2D6","#FBE7C6"]},"$preview":{"width":1200,"height":1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+bg: this.props.bg ?? '#F9D9E3',
+photos: [
+{ label: 'Foto 1', tilt: '-1.5deg' },
+{ label: 'Foto 2', tilt: '1.2deg' },
+{ label: 'Foto 3', tilt: '1deg' },
+{ label: 'Foto 4', tilt: '-1.2deg' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

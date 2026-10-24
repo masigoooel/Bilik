@@ -1,0 +1,14 @@
+node_modules
+dist
+*.local
+.vercel
+design-reference/**/_ref/
+
+# sisa kerja lokal (tidak ikut repo)
+scratchpad/
+bilik-templates/
+
+# variabel lingkungan (jaga-jaga, tidak ada rahasia saat ini)
+.env
+.env.*
+!.env.example

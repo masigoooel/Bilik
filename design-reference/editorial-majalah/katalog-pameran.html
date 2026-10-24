@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Katalog Pameran</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&amp;family=IBM+Plex+Mono:wght@400;600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141414}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 600px; height: 1800px; box-sizing: border-box; padding: 70px 50px 50px; background: {{bg}}; display: flex; flex-direction: column; gap: 34px; font-family: 'IBM Plex Mono', monospace; color: #141414">
+<div style="display: flex; flex-direction: column; gap: 6px; border-bottom: 1px solid #141414; padding-bottom: 18px"><span style="font-size: 13px; letter-spacing: 0.3em">KATALOG PAMERAN</span><span style="font-family: 'Bodoni Moda', Georgia, serif; font-size: 56px; line-height: 1">[NAMA]</span><span style="font-size: 13px">[TEMPAT] · 17.10 — 30.11.2026</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px"><div style="height: 360px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #DDD9D0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56; box-shadow: 0 0 0 1px #c9c5bb"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">PLAT 1</div></div><div style="display: flex; justify-content: space-between; font-size: 13px"><span>plat I</span><span style="font-style: italic; font-family: 'Bodoni Moda', Georgia, serif; font-size: 18px">[JUDUL KARYA], 2026</span></div></div><div style="display: flex; flex-direction: column; gap: 10px"><div style="height: 360px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #DDD9D0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56; box-shadow: 0 0 0 1px #c9c5bb"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">PLAT 2</div></div><div style="display: flex; justify-content: space-between; font-size: 13px"><span>plat II</span><span style="font-style: italic; font-family: 'Bodoni Moda', Georgia, serif; font-size: 18px">[JUDUL KARYA], 2026</span></div></div><div style="display: flex; flex-direction: column; gap: 10px"><div style="height: 360px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #DDD9D0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56; box-shadow: 0 0 0 1px #c9c5bb"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">PLAT 3</div></div><div style="display: flex; justify-content: space-between; font-size: 13px"><span>plat III</span><span style="font-style: italic; font-family: 'Bodoni Moda', Georgia, serif; font-size: 18px">[JUDUL KARYA], 2026</span></div></div>
+<div style="flex: 1; display: flex; align-items: flex-end; font-size: 12px">3 karya · foto dan cetak</div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFFFFF", "options": ["#FFFFFF", "#F5F2EC", "#EDE8F0"]}, "$preview": {"width": 600, "height": 1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFFFFF' };
+}
+}
+</script>
+</body>
+</html>

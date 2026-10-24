@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Sampul Komik</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Archivo+Black&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 40px; background: {{bg}}; font-family: 'Space Mono', monospace; color: #111">
+<div style="position: relative; height: 1270px; border: 8px solid #111; background: #fff; overflow: hidden">
+<div style="position: absolute; left: 0; top: 0; width: 100%; height: 200px; background: {{c}}; border-bottom: 8px solid #111; display: flex; align-items: center; justify-content: space-between; padding: 0 30px; box-sizing: border-box">
+<span style="font-family: 'Bangers', Impact, sans-serif; font-size: 150px; line-height: 1; color: #FFE45C; -webkit-text-stroke: 5px #111; paint-order: stroke fill; text-shadow: 8px 8px 0 #111">BILIK!</span>
+<div style="display: flex; flex-direction: column; align-items: center; padding: 10px 14px; background: #fff; border: 4px solid #111"><span style="font-size: 12px; font-weight: 700">NO.</span><span style="font-family: 'Archivo Black', Impact, sans-serif; font-size: 40px; line-height: 1">17</span></div></div>
+<div style="position: absolute; left: 0; top: 208px; width: 100%; height: 900px"><div style="height: 900px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #F0EEE8; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div><div style="position: absolute; inset: 0; background: repeating-conic-gradient(from 0deg at 50% 50%, rgba(0,0,0,0.04) 0 4deg, transparent 4deg 12deg)"></div></div>
+<div style="position: absolute; left: 30px; top: 260px; padding: 12px 20px; background: #FFE45C; border: 5px solid #111; font-family: 'Bangers', Impact, sans-serif; font-size: 40px; transform: rotate(-4deg)">PERTAMA KALI!</div>
+<div style="position: absolute; left: 0; bottom: 0; width: 100%; height: 162px; background: #fff; border-top: 8px solid #111; display: flex; align-items: center; justify-content: space-between; padding: 0 30px; box-sizing: border-box"><div style="display: flex; flex-direction: column"><span style="font-family: 'Archivo Black', Impact, sans-serif; font-size: 46px; line-height: 1">[NAMA]</span><span style="font-size: 14px">dan petualangan di [TEMPAT]</span></div><div style="padding: 8px 12px; border: 3px solid #111; font-size: 13px; font-weight: 700; text-align: center">Rp 5.000<br>OKT 2026</div></div></div><div style="position: absolute; left: 48px; top: 48px; width: 26px; height: 1254px; background: linear-gradient(90deg, rgba(0,0,0,0.25), rgba(255,255,255,0.15) 50%, transparent)"></div><div style="position: absolute; left: 940px; top: 1180px; width: 100px; height: 100px; background: linear-gradient(315deg, rgba(255,255,255,0.0) 0 50%, rgba(0,0,0,0.12) 51%, transparent 70%)"></div><div style="position: absolute; left: 48px; top: 48px; width: 984px; height: 1254px; background: linear-gradient(120deg, rgba(255,255,255,0.15), transparent 30%)"></div><div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.05; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div><div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1.6px) 0 0 / 6px 6px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFD600", "options": ["#FFD600", "#111111", "#3FB8FF"]}, "c": {"editor": "color", "default": "#E23A3A", "options": ["#E23A3A", "#2F6BFF", "#18A05A"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFD600', c: this.props.c ?? '#E23A3A' };
+}
+}
+</script>
+</body>
+</html>

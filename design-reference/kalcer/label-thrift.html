@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Label Thrift</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;family=Permanent+Marker&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2a2118}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; background: {{bg}}; overflow: hidden; font-family: 'Space Mono', 'Courier New', monospace; color: #2a2118">
+<svg style="position: absolute; left: 470px; top: 0px" width="140" height="120" viewBox="0 0 140 120" aria-hidden="true"><path d="M70 0 C 40 40, 100 60, 70 112" fill="none" stroke="#EDE6D6" stroke-width="5" stroke-linecap="round"></path></svg>
+<div style="position: absolute; left: 130px; top: 50px; width: 820px; height: 1250px; box-sizing: border-box; padding: 140px 40px 40px; background: #D9C4A0; clip-path: polygon(110px 0, 710px 0, 820px 110px, 820px 1250px, 0 1250px, 0 110px); display: flex; flex-direction: column; gap: 20px">
+<div style="position: absolute; left: 380px; top: 46px; width: 60px; height: 60px; border-radius: 50%; background: {{bg}}; box-shadow: 0 0 0 10px #c6ad83, inset 0 4px 8px rgba(0,0,0,0.45)"></div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<div style="font-size: 16px; font-weight: 700; letter-spacing: 0.3em">PRELOVED · THRIFT</div>
+<div style="font-family: 'Anton', Impact, sans-serif; font-size: 58px; line-height: 1">ARSIP</div>
+</div>
+<div style="padding: 8px 14px; border: 3px solid #2a2118; font-size: 18px; font-weight: 700; transform: rotate(-5deg)">1 OF 1</div>
+</div>
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="2">
+<div style="height: 400px; background: #EDE6D6; border: 3px solid #2a2118; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #6b5d48">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 18px; font-weight: 700">{{p.label}}</div>
+</div>
+</sc-for>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; border-top: 3px solid #2a2118; padding-top: 14px">
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 14px">SIZE</div><div style="font-size: 22px; font-weight: 700">ALL SIZE</div></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 14px">KONDISI</div><div style="font-size: 22px; font-weight: 700">9/10</div></div>
+<div style="display: flex; flex-direction: column; gap: 2px"><div style="font-size: 14px">HARGA</div><div style="font-family: 'Permanent Marker', cursive; font-size: 28px; color: {{accent}}">NFS</div></div>
+</div>
+</div>
+<svg style="position: absolute; left: 760px; top: 150px; transform: rotate(28deg)" width="200" height="60" viewBox="0 0 120 50" aria-hidden="true"><path d="M10 25 C 10 10, 30 10, 30 25 L 100 25 C 112 25, 112 40, 100 40 L 30 40" fill="none" stroke="#C9CDD3" stroke-width="5" stroke-linecap="round"></path><rect x="96" y="18" width="20" height="28" rx="4" fill="#C9CDD3"></rect></svg><div style="position: absolute; left: 180px; top: 130px; font-family: 'Permanent Marker', cursive; font-size: 30px; color: #2a2118; transform: rotate(-4deg)">no. 017</div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg":{"editor":"color","default":"#2F3A52","options":["#2F3A52","#3B3A36","#5B2E2A","#2F4A3A"]},"accent":{"editor":"color","default":"#C0311F","options":["#C0311F","#1F4FC0","#2a2118"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+bg: this.props.bg ?? '#2F3A52',
+accent: this.props.accent ?? '#C0311F',
+photos: [{ label: 'FOTO 1' }, { label: 'FOTO 2' }]
+};
+}
+}
+</script>
+</body>
+</html>

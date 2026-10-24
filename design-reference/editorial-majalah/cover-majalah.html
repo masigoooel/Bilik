@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Cover Majalah</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&amp;family=IBM+Plex+Mono:wght@400;600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141414}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; font-family: 'IBM Plex Mono', 'Courier New', monospace; color: {{c}}; overflow: hidden">
+<div style="position: absolute; inset: 0"><div style="height: 1350px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #BDB8AE; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #4a463f"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div></div>
+<div style="position: absolute; left: 50px; top: 30px; width: 980px; text-align: center; font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-weight: 800; font-size: 250px; line-height: 1; letter-spacing: -0.03em">ARSIP</div>
+<div style="position: absolute; left: 60px; top: 300px; width: 960px; display: flex; justify-content: space-between; font-size: 18px; letter-spacing: 0.15em"><span>VOL. 07</span><span>OKTOBER 2026</span></div>
+<div style="position: absolute; left: 60px; top: 1060px; display: flex; flex-direction: column; gap: 6px"><span style="font-family: 'Bodoni Moda', 'Didot', Georgia, serif; font-style: italic; font-size: 56px; line-height: 1">[NAMA]</span><span style="font-size: 18px">edisi khusus</span></div>
+<div style="position: absolute; right: 60px; top: 1190px; padding: 10px 12px; background: #ffffff; display: flex; gap: 2px; align-items: flex-end"><div style="width: 3px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 2px; height: 46px; background: #141414"></div><div style="width: 4px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 3px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 2px; height: 46px; background: #141414"></div><div style="width: 2px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 4px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 3px; height: 46px; background: #141414"></div><div style="width: 2px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div><div style="width: 2px; height: 46px; background: #141414"></div><div style="width: 4px; height: 46px; background: #141414"></div><div style="width: 1px; height: 46px; background: #141414"></div></div>
+<div style="position: absolute; left: 60px; top: 420px; width: 520px; display: flex; flex-direction: column; gap: 14px; color: {{c}}"><span style="font-family: 'Bodoni Moda', serif; font-weight: 800; font-size: 64px; line-height: 0.95">[JUDUL UTAMA]</span><span style="font-size: 20px">[SUBJUDUL SINGKAT]</span><div style="width: 80px; height: 3px; background: {{c}}"></div></div><div style="position: absolute; left: 640px; top: 1150px; font-size: 16px; color: {{c}}">Rp 45.000 · No. 07</div><div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.09; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"c": {"editor": "color", "default": "#FFFFFF", "options": ["#FFFFFF", "#141414", "#D7261E"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { c: this.props.c ?? '#FFFFFF' };
+}
+}
+</script>
+</body>
+</html>

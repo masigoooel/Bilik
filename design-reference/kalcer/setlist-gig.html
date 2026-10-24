@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Setlist Gig</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#151515}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 1800px; box-sizing: border-box; padding: 30px; background: #121212; font-family: 'Permanent Marker', 'Comic Sans MS', cursive; color: #151515">
+<div style="position: relative; width: 540px; height: 1740px; box-sizing: border-box; padding: 70px 30px 36px; background: #F7F6F2; transform: rotate(-0.6deg); display: flex; flex-direction: column; gap: 24px">
+<div style="position: absolute; left: 30px; top: -14px; width: 150px; height: 48px; background: {{tape}}; transform: rotate(-4deg)"></div>
+<div style="position: absolute; right: 30px; top: -14px; width: 150px; height: 48px; background: {{tape}}; transform: rotate(5deg)"></div>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 76px; line-height: 1">SETLIST</div>
+<div style="font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700">[NAMA BAND] · live di [VENUE] · 17.10.26</div>
+</div>
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="4">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 50px; font-size: 48px; line-height: 1; color: {{accent}}">{{p.num}}</div>
+<div style="width: 416px; height: 300px; background: #E2E0D9; border: 3px solid #151515; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: #5f5d57">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-family: 'Space Mono', monospace; font-size: 16px; font-weight: 700">{{p.label}}</div>
+</div>
+</div>
+</sc-for>
+<div style="flex: 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px">
+<div style="font-size: 44px; line-height: 1; color: {{accent}}">ENCORE</div>
+<div style="font-family: 'Space Mono', monospace; font-size: 15px">[NAMA BAND] · 2026</div>
+</div>
+</div>
+<svg style="position: absolute; left: 455px; top: 1640px; transform: rotate(18deg)" width="90" height="100" viewBox="0 0 22 24" aria-hidden="true"><path d="M11 23 C 6 18, 1 10, 2 5 C 3 1, 19 1, 20 5 C 21 10, 16 18, 11 23 Z" fill="{{accent}}" stroke="#151515" stroke-width="1"></path></svg>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#D7261E","options":["#D7261E","#1F4FC0","#151515","#E07A00"]},"tape":{"editor":"color","default":"#A9ABAE","options":["#A9ABAE","#2b2b2b","#E8D35A"]},"$preview":{"width":600,"height":1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+accent: this.props.accent ?? '#D7261E',
+tape: this.props.tape ?? '#A9ABAE',
+photos: [
+{ num: '1.', label: 'FOTO 1' },
+{ num: '2.', label: 'FOTO 2' },
+{ num: '3.', label: 'FOTO 3' },
+{ num: '4.', label: 'FOTO 4' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

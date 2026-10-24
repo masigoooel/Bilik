@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Film Negatif</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#f5a524}a:hover{color:#ffc35c}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 1800px; box-sizing: border-box; background: #111110; display: flex; flex-direction: row; font-family: 'IBM Plex Mono', 'Courier New', monospace; color: #f2efe8">
+<div style="width: 60px; height: 1800px; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly">
+<sc-for list="{{holes}}" as="h" hint-placeholder-count="22">
+<div style="width: 24px; height: 36px; border-radius: 5px; background: #f2efe8; box-shadow: inset 0 2px 3px rgba(0,0,0,0.55), 0 1px 0 rgba(255,255,255,0.08)"></div>
+</sc-for>
+</div>
+<div style="width: 480px; box-sizing: border-box; padding: 36px 20px 40px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; justify-content: space-between; font-size: 15px; font-weight: 600; letter-spacing: 0.12em; color: {{accent}}">
+<span>PHOTOBOX 400</span>
+<span>ISO 400</span>
+</div>
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="4">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 14px; font-weight: 600; color: {{accent}}">▸ {{p.num}}</div>
+<div style="width: 440px; height: 310px; background: #2a2926; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06), inset 0 0 24px rgba(0,0,0,0.6); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #a8a49b">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 16px; letter-spacing: 0.1em">{{p.label}}</div>
+</div>
+</div>
+</sc-for>
+<div style="flex: 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px">
+<div style="font-size: 34px; font-weight: 600; letter-spacing: 0.04em">ROLL 01</div>
+<div style="font-size: 16px; letter-spacing: 0.2em; color: {{accent}}">'26 10 17</div>
+</div>
+</div>
+<div style="width: 60px; height: 1800px; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly">
+<sc-for list="{{holes}}" as="h" hint-placeholder-count="22">
+<div style="width: 24px; height: 36px; border-radius: 5px; background: #f2efe8; box-shadow: inset 0 2px 3px rgba(0,0,0,0.55), 0 1px 0 rgba(255,255,255,0.08)"></div>
+</sc-for>
+</div>
+<div style="position: absolute; left: 0; top: 0; width: 600px; height: 1800px; background: radial-gradient(ellipse 260px 420px at 100% 6%, rgba(255,120,40,0.18), transparent 70%), radial-gradient(ellipse 200px 300px at 0% 96%, rgba(255,80,60,0.1), transparent 70%); pointer-events: none"></div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+<div style="position: absolute; left: -150px; top: 890px; width: 360px; text-align: center; transform: rotate(-90deg); font-size: 11px; letter-spacing: 0.3em; color: #8a8a8a">PHOTOBOX 400 · SAFETY FILM · 36 EXP</div>
+<div style="position: absolute; left: 390px; top: 890px; width: 360px; text-align: center; transform: rotate(90deg); font-size: 11px; letter-spacing: 0.3em; color: #E8A33C; opacity: 0.8; pointer-events: none">▸ 17 ▸ 17A ▸ 18 ▸ 18A ▸ 19</div><div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(232,163,60,0.06), transparent 30%, transparent 70%, rgba(232,163,60,0.05)); pointer-events: none"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#F5A524","options":["#F5A524","#FF6B4A","#7CD992","#f2efe8"]},"$preview":{"width":600,"height":1800}}'>
+class Component extends DCLogic {
+renderVals() {
+const holes = [];
+for (let i = 0; i < 22; i++) holes.push({ i: i });
+return {
+accent: this.props.accent ?? '#F5A524',
+holes: holes,
+photos: [
+{ num: '01A', label: 'FOTO 1' },
+{ num: '02A', label: 'FOTO 2' },
+{ num: '03A', label: 'FOTO 3' },
+{ num: '04A', label: 'FOTO 4' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

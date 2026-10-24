@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Folder Foto</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&amp;family=Space+Mono:wght@400;700&amp;family=VT323&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1200px; height: 1800px; background: {{bg}}; font-family: 'Space Mono', 'Courier New', monospace; color: #111; overflow: hidden">
+<div style="position: absolute; left: 50px; top: 50px; width: 1100px; height: 1620px; box-sizing: border-box; padding: 4px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040, 8px 10px 0 rgba(0,0,0,0.25); display: flex; flex-direction: column">
+<div style="height: 44px; padding: 0 8px 0 14px; background: {{accent}}; color: #ffffff; display: flex; align-items: center; justify-content: space-between"><span style="font-family: 'Silkscreen', monospace; font-size: 20px">Foto Saya</span>
+<div style="display: flex; gap: 4px"><div style="width: 30px; height: 28px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040; color: #111; font-weight: 700; display: flex; align-items: center; justify-content: center">_</div><div style="width: 30px; height: 28px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040; color: #111; font-weight: 700; display: flex; align-items: center; justify-content: center">□</div><div style="width: 30px; height: 28px; background: #D4D0C8; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040; color: #111; font-weight: 700; display: flex; align-items: center; justify-content: center">×</div></div></div>
+<div style="height: 34px; padding: 0 12px; display: flex; align-items: center; gap: 26px; font-size: 16px"><span>File</span><span>Edit</span><span>Lihat</span><span>Favorit</span><span>Bantuan</span></div>
+<div style="height: 46px; padding: 0 10px; display: flex; align-items: center; gap: 12px; font-size: 16px; border-top: 1px solid #808080"><span>Alamat</span><div style="flex: 1; height: 32px; padding: 0 10px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff; display: flex; align-items: center">C:\Foto\17-10-2026</div><span style="padding: 4px 14px; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040">Buka</span></div>
+<div style="flex: 1; display: flex; gap: 4px; margin-top: 4px">
+<div style="width: 250px; box-sizing: border-box; padding: 18px 16px; background: linear-gradient(#7BA2E7, #6375D6); display: flex; flex-direction: column; gap: 18px">
+<div style="border-radius: 10px 10px 0 0; overflow: hidden; background: #D6DFF7"><div style="padding: 10px 12px; background: linear-gradient(90deg, #ffffff, #C6D3F7); font-size: 15px; font-weight: 700; color: #1d3a7a">Tugas Foto</div><div style="padding: 14px 12px; display: flex; flex-direction: column; gap: 12px"><div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #1d3a7a"><div style="width: 18px; height: 18px; border-radius: 4px; background: linear-gradient(#ffffff, #9cc0f0); border: 1px solid #1d3a7a"></div>Lihat slideshow</div><div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #1d3a7a"><div style="width: 18px; height: 18px; border-radius: 4px; background: linear-gradient(#ffffff, #9cc0f0); border: 1px solid #1d3a7a"></div>Cetak foto</div><div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #1d3a7a"><div style="width: 18px; height: 18px; border-radius: 4px; background: linear-gradient(#ffffff, #9cc0f0); border: 1px solid #1d3a7a"></div>Kirim foto</div></div></div>
+<div style="border-radius: 10px 10px 0 0; overflow: hidden; background: #D6DFF7"><div style="padding: 10px 12px; background: linear-gradient(90deg, #ffffff, #C6D3F7); font-size: 15px; font-weight: 700; color: #1d3a7a">Detail</div><div style="padding: 14px 12px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #1d3a7a"><b>foto_02.jpg</b><span>JPEG · 1080×1350</span><span>diambil 17/10/26 16:20</span></div></div></div>
+<div style="flex: 1; padding: 20px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-content: start"><div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 10px; ">
+<div style="width: 100%; padding: 6px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff"><div style="height: 540px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #ECEAE5; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a5852"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-family: 'Silkscreen', monospace; font-size: 18px; font-weight: 700">FOTO 1</div></div></div>
+<span style="padding: 2px 8px; font-size: 16px; ">foto_01.jpg</span></div><div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 10px; background: rgba(49,106,197,0.18); outline: 2px dotted #316AC5;">
+<div style="width: 100%; padding: 6px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff"><div style="height: 540px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #ECEAE5; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a5852"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-family: 'Silkscreen', monospace; font-size: 18px; font-weight: 700">FOTO 2</div></div></div>
+<span style="padding: 2px 8px; font-size: 16px; background: #316AC5; color: #ffffff;">foto_02.jpg</span></div><div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 10px; ">
+<div style="width: 100%; padding: 6px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff"><div style="height: 540px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #ECEAE5; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a5852"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-family: 'Silkscreen', monospace; font-size: 18px; font-weight: 700">FOTO 3</div></div></div>
+<span style="padding: 2px 8px; font-size: 16px; ">foto_03.jpg</span></div><div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 10px; ">
+<div style="width: 100%; padding: 6px; background: #ffffff; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff"><div style="height: 540px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #ECEAE5; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a5852"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-family: 'Silkscreen', monospace; font-size: 18px; font-weight: 700">FOTO 4</div></div></div>
+<span style="padding: 2px 8px; font-size: 16px; ">foto_04.jpg</span></div></div></div>
+<div style="height: 30px; margin-top: 4px; padding: 0 10px; display: flex; align-items: center; justify-content: space-between; font-size: 14px; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff"><span>4 objek (1 dipilih)</span><span>12,4 MB</span></div>
+</div>
+<div style="position: absolute; left: 0; top: 1736px; width: 1200px; height: 64px; box-sizing: border-box; padding: 0 12px; background: #D4D0C8; box-shadow: inset 0 2px 0 #ffffff; display: flex; align-items: center; gap: 12px">
+<div style="height: 44px; padding: 0 18px; box-shadow: inset 2px 2px 0 #ffffff, inset -2px -2px 0 #404040; display: flex; align-items: center; font-family: 'Silkscreen', monospace; font-size: 20px">mulai</div>
+<div style="height: 44px; width: 260px; padding: 0 14px; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff; display: flex; align-items: center; font-size: 16px">Foto Saya</div>
+<div style="margin-left: auto; height: 44px; padding: 0 18px; box-shadow: inset 2px 2px 0 #808080, inset -2px -2px 0 #ffffff; display: flex; align-items: center; font-size: 18px; font-weight: 700">16:20</div></div>
+<svg style="position: absolute; left: 760px; top: 860px" width="44" height="60" viewBox="0 0 22 30" aria-hidden="true"><path d="M2 2 L2 24 L8 18 L12 28 L16 26 L12 16 L20 16 Z" fill="#ffffff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"></path></svg>
+<div style="position: absolute; left: 640px; top: 1000px; padding: 6px 10px; background: #FFFFE1; border: 1px solid #111; font-size: 14px; z-index: 5">foto_02.jpg · JPEG · 1,2 MB</div>
+<div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1.5px) 0 0 / 4px 4px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#3A8C8C", "options": ["#3A8C8C", "#6B7FD7", "#E79BB8", "#2B2B2B"]}, "accent": {"editor": "color", "default": "#1F3A8A", "options": ["#1F3A8A", "#8A1F5A", "#1F6B3A", "#333333"]}, "$preview": {"width": 1200, "height": 1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#3A8C8C', accent: this.props.accent ?? '#1F3A8A' };
+}
+}
+</script>
+</body>
+</html>

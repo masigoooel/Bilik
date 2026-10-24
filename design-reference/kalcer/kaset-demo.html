@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Kaset Demo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;family=Permanent+Marker&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1c1b19}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; background: {{bg}}; font-family: 'Space Mono', monospace; color: #1c1b19; overflow: hidden">
+<div style="position: absolute; left: 90px; top: 70px; width: 900px; height: 700px; border-radius: 14px; background: rgba(255,255,255,0.18); box-shadow: inset 0 0 0 3px rgba(255,255,255,0.45), 0 20px 40px rgba(0,0,0,0.3); padding: 22px; box-sizing: border-box; display: flex; gap: 0">
+<div style="flex: 1; padding: 22px; background: #F4F2EC; display: flex; flex-direction: column; gap: 14px; filter: grayscale(1) contrast(1.05)">
+<div style="flex: 1"><div style="height: 520px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #cfcbc2; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #4a463c"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 1</div></div></div>
+<div style="display: flex; justify-content: space-between; align-items: flex-end"><span style="font-family: 'Permanent Marker', cursive; font-size: 44px; line-height: 1">[NAMA BAND]</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 28px">DEMO '26</span></div></div>
+<div style="width: 60px; background: #F4F2EC; border-left: 2px dashed rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center"><span style="transform: rotate(90deg); white-space: nowrap; font-family: 'Permanent Marker', cursive; font-size: 24px">[NAMA BAND] · demo</span></div>
+<div style="width: 220px; padding: 22px 18px; background: #F4F2EC; border-left: 2px dashed rgba(0,0,0,0.3); display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; font-weight: 700">SISI A</span><span style="font-family: 'Permanent Marker', cursive; font-size: 22px; line-height: 1.25">1. [LAGU]</span><span style="font-family: 'Permanent Marker', cursive; font-size: 22px; line-height: 1.25">2. [LAGU]</span><span style="font-family: 'Permanent Marker', cursive; font-size: 22px; line-height: 1.25">3. [LAGU]</span><span style="font-family: 'Permanent Marker', cursive; font-size: 22px; line-height: 1.25">4. [LAGU]</span><span style="font-family: 'Permanent Marker', cursive; font-size: 22px; line-height: 1.25">5. [LAGU]</span><span style="margin-top: auto; font-size: 11px">direkam di kamar · 2026</span></div></div>
+<div style="position: absolute; left: 150px; top: 820px; width: 780px; height: 470px; border-radius: 22px; background: linear-gradient(160deg, #e9e6dd, #c9c5ba); box-shadow: 0 20px 40px rgba(0,0,0,0.35), inset 0 2px 0 #fff; padding: 30px; box-sizing: border-box">
+<div style="height: 250px; padding: 14px; border-radius: 10px; background: #F4F2EC; box-shadow: inset 0 0 0 2px rgba(0,0,0,0.12); display: flex; gap: 16px; align-items: stretch">
+<div style="width: 240px"><div style="height: 222px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #cfcbc2; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #4a463c; filter: grayscale(1)"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 2</div></div></div>
+<div style="flex: 1; display: flex; flex-direction: column; justify-content: space-between"><div style="height: 4px; background: {{c}}"></div><span style="font-family: 'Permanent Marker', cursive; font-size: 34px">[NAMA BAND]</span><div style="display: flex; justify-content: space-between; font-size: 13px"><span>A · 30 MENIT</span><span>C-60</span></div><div style="height: 4px; background: {{c}}"></div></div></div>
+<div style="margin: 26px auto 0; width: 520px; height: 120px; border-radius: 60px; background: #1c1b19; display: flex; align-items: center; justify-content: space-around"><div style="width: 96px; height: 96px; border-radius: 50%; background: radial-gradient(circle, #f4f2ec 0 18%, #3a2c22 19% 70%, #2a1e16 71%); display: flex; align-items: center; justify-content: center"><div style="width: 30px; height: 30px; border-radius: 50%; background: repeating-conic-gradient(#f4f2ec 0 30deg, #1c1b19 30deg 60deg)"></div></div><div style="width: 160px; height: 40px; background: #3a2c22; border-radius: 4px"></div><div style="width: 96px; height: 96px; border-radius: 50%; background: radial-gradient(circle, #f4f2ec 0 18%, #3a2c22 19% 70%, #2a1e16 71%); display: flex; align-items: center; justify-content: center"><div style="width: 30px; height: 30px; border-radius: 50%; background: repeating-conic-gradient(#f4f2ec 0 30deg, #1c1b19 30deg 60deg)"></div></div></div></div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#8A8578", "options": ["#8A8578", "#2F3A52", "#6B4B2A"]}, "c": {"editor": "color", "default": "#E8553D", "options": ["#E8553D", "#C8F03C", "#4FB3FF"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#8A8578', c: this.props.c ?? '#E8553D' };
+}
+}
+</script>
+</body>
+</html>

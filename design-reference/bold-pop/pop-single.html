@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Pop Single</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Archivo+Black&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 150px 90px 80px; background: radial-gradient(circle, rgba(0,0,0,0.18) 3px, transparent 4px) 0 0 / 22px 22px, {{bg}}; display: flex; flex-direction: column; gap: 40px; font-family: 'Space Mono', monospace; color: #111111">
+<div style="position: absolute; left: 0; top: 0; width: 1080px; height: 1350px; background: repeating-conic-gradient(from 0deg at 50% 45%, rgba(0,0,0,0.05) 0 4deg, transparent 4deg 12deg)"></div><div style="position: relative"><div style="border: 7px solid #111111; box-shadow: 14px 14px 0 #111111; background: #ffffff"><div style="height: 920px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div></div><div style="position: absolute; left: -10px; bottom: 30px; padding: 10px 20px; background: #FFE45C; border: 5px solid #111; font-family: 'Bangers', Impact, sans-serif; font-size: 30px; transform: rotate(-2deg)">[TEKS]</div></div>
+<div style="flex: 1; display: flex; align-items: flex-end; justify-content: space-between; font-family: 'Bangers', Impact, sans-serif; font-size: 30px"><span>[NAMA]</span><span>17.10.26</span></div>
+<svg style="position: absolute; left: 760px; top: 60px" width="260" height="260" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,2 60,30 90,14 72,42 98,52 70,62 84,92 56,74 46,98 40,70 10,86 28,60 2,48 30,38 14,10 42,26" fill="{{c}}" stroke="#111111" stroke-width="2.5" stroke-linejoin="round"></polygon></svg><div style="position: absolute; left: 760px; top: 60px; width: 260px; height: 260px; display: flex; align-items: center; justify-content: center; font-family: 'Bangers', Impact, sans-serif; font-size: 54px; transform: rotate(-8deg)">No. 01</div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.05; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+<div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1.6px) 0 0 / 6px 6px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFD600", "options": ["#FFD600", "#FF4FA3", "#3FB8FF", "#7CE05A"]}, "c": {"editor": "color", "default": "#FF3B30", "options": ["#FF3B30", "#FFFFFF", "#3FB8FF"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFD600', c: this.props.c ?? '#FF3B30' };
+}
+}
+</script>
+</body>
+</html>

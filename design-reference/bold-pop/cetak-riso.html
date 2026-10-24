@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Cetak Riso</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0078BF}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 70px; background: #F4F0E6; font-family: 'Space Mono', monospace; color: #0078BF; overflow: hidden">
+<div style="position: absolute; inset: 0; background: radial-gradient(circle, rgba(0,0,0,0.06) 1px, transparent 1.5px) 0 0 / 4px 4px"></div>
+<div style="position: relative; display: flex; justify-content: space-between; font-size: 16px; font-weight: 700"><span>CETAK RISO · 2 WARNA</span><span>1/50</span></div>
+<div style="position: absolute; left: 110px; top: 160px; width: 860px; height: 860px">
+<div style="position: absolute; inset: 0; transform: translate(-10px,-8px); mix-blend-mode: multiply"><div style="height: 860px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: transparent; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #FF48B0; background: radial-gradient(circle, rgba(255,72,176,0.55) 2.4px, transparent 3px) 0 0 / 9px 9px; filter: contrast(1.1)"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div></div>
+<div style="position: absolute; inset: 0; transform: translate(10px,8px); mix-blend-mode: multiply; background: radial-gradient(circle, rgba(0,120,191,0.5) 2.4px, transparent 3px) 4px 4px / 9px 9px"></div></div>
+<div style="position: absolute; left: 70px; top: 1060px; width: 940px; display: flex; justify-content: space-between; align-items: flex-end">
+<span style="font-family: 'Archivo Black', Impact, sans-serif; font-size: 120px; line-height: 0.85; color: #FF48B0; mix-blend-mode: multiply; text-shadow: 8px 6px 0 rgba(0,120,191,0.7)">[NAMA]</span>
+<span style="font-size: 16px; text-align: right; color: #0078BF">pink fluoro + biru medium<br>17.10.26</span></div><div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1.6px) 0 0 / 6px 6px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"c": {"editor": "color", "default": "#FF48B0", "options": ["#FF48B0"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { c: this.props.c ?? '#FF48B0' };
+}
+}
+</script>
+</body>
+</html>

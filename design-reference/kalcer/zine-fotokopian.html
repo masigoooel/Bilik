@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Zine Fotokopian</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=DM+Serif+Display&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141414}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1200px; height: 1800px; box-sizing: border-box; padding: 70px; background: #ECEBE6; display: flex; flex-direction: column; gap: 40px; font-family: 'Space Mono', 'Courier New', monospace; color: #141414; overflow: hidden">
+<div style="height: 260px; display: flex; flex-direction: column; justify-content: flex-end; gap: 18px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px">
+<sc-for list="{{letters}}" as="l" hint-placeholder-count="9">
+<div style="padding: 6px 14px; background: {{l.bg}}; color: {{l.fg}}; font-family: {{l.font}}; font-size: {{l.size}}; line-height: 1; transform: rotate({{l.rot}})">{{l.ch}}</div>
+</sc-for>
+</div>
+<div style="display: flex; align-items: center; gap: 16px">
+<div style="padding: 4px 12px; background: {{accent}}; font-size: 22px; font-weight: 700">edisi 07</div>
+<div style="font-size: 18px">terbit tidak tentu</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 44px">
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="4">
+<div style="position: relative; transform: rotate({{p.tilt}})">
+<div style="height: 578px; background: #CFCDC6; border: 3px solid #141414; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #4a4945">
+<svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 20px; font-weight: 700">{{p.label}}</div>
+</div>
+<div style="position: absolute; top: -22px; left: {{p.tapeX}}; width: 150px; height: 44px; background: rgba(240,232,200,0.75); transform: rotate({{p.tapeRot}})"></div>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-end; font-size: 18px">
+<span>hal. 07 / [NAMA GENG]</span>
+<span style="font-family: 'DM Serif Display', Georgia, serif; font-size: 34px; font-style: italic">Oktober 2026</span>
+</div>
+<div style="position: absolute; left: 360px; top: 28px; width: 80px; height: 8px; background: linear-gradient(#d9d9d9, #8a8a8a)"></div><div style="position: absolute; left: 760px; top: 28px; width: 80px; height: 8px; background: linear-gradient(#d9d9d9, #8a8a8a)"></div><div style="position: absolute; left: 960px; top: 80px; width: 160px; height: 160px; border-radius: 50%; background: {{accent}}; border: 3px solid #141414; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: 'Space Mono', monospace; font-weight: 700; transform: rotate(10deg)"><span style="font-size: 14px">HARGA</span><span style="font-size: 26px">Rp 10rb</span></div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FF4FA3","options":["#FF4FA3","#C8F03C","#FFD600","#4FB3FF"]},"$preview":{"width":1200,"height":1800}}'>
+class Component extends DCLogic {
+renderVals() {
+const accent = this.props.accent ?? '#FF4FA3';
+const A = "'Anton', Impact, sans-serif", S = "'DM Serif Display', Georgia, serif", M = "'Space Mono', monospace";
+const spec = [
+['Z', '#141414', '#ECEBE6', A, '88px', '-4deg'],
+['I', '#ECEBE6', '#141414', S, '96px', '3deg'],
+['N', accent, '#141414', A, '83px', '-2deg'],
+['E', '#ffffff', '#141414', M, '76px', '5deg'],
+['N', '#141414', '#ECEBE6', S, '80px', '-3deg'],
+['O', '#ffffff', '#141414', A, '88px', '2deg'],
+['.', '#ECEBE6', '#141414', S, '76px', '0deg'],
+['0', accent, '#141414', M, '83px', '-5deg'],
+['7', '#141414', '#ECEBE6', A, '94px', '4deg']
+];
+const letters = spec.map((s) => ({ ch: s[0], bg: s[1], fg: s[2], font: s[3], size: s[4], rot: s[5] }));
+return {
+accent: accent,
+letters: letters,
+photos: [
+{ label: 'FOTO 1', tilt: '-1.5deg', tapeX: '32px', tapeRot: '-6deg' },
+{ label: 'FOTO 2', tilt: '1.2deg', tapeX: '240px', tapeRot: '5deg' },
+{ label: 'FOTO 3', tilt: '1deg', tapeX: '144px', tapeRot: '-3deg' },
+{ label: 'FOTO 4', tilt: '-1.8deg', tapeX: '48px', tapeRot: '7deg' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

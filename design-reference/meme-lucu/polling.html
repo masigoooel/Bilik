@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Polling</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;family=Outfit:wght@500;700;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 80px 70px; background: {{bg}}; display: flex; flex-direction: column; gap: 30px; font-family: 'Outfit', sans-serif; color: #111">
+<div style="display: flex; flex-direction: column; gap: 8px"><span style="font-family: 'Space Mono', monospace; font-size: 14px; color: #666">POLLING GRUP · [NAMA GENG]</span><span style="font-family: 'Anton', Impact, sans-serif; font-size: 72px; line-height: 1">foto mana yang dipakai?</span></div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px"><div style="display: flex; flex-direction: column; gap: 12px"><div style="position: relative; border-radius: 18px; overflow: hidden; box-shadow: 0 0 0 4px {{c}}"><div style="height: 560px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 1</div></div><div style='position: absolute; right: 12px; top: 12px; padding: 4px 12px; border-radius: 14px; background: {{c}}; color: #fff; font-weight: 800; font-size: 16px'>pemenang</div></div><div style="position: relative; height: 52px; border-radius: 14px; background: #f1efe9; overflow: hidden"><div style="width: 73%; height: 100%; background: {{c}}"></div><div style="position: absolute; inset: 0; padding: 0 16px; display: flex; align-items: center; justify-content: space-between; font-weight: 800; font-size: 20px; color: #fff"><span>A</span><span>73%</span></div></div></div><div style="display: flex; flex-direction: column; gap: 12px"><div style="position: relative; border-radius: 18px; overflow: hidden; box-shadow: 0 0 0 1px #d9d6cf"><div style="height: 560px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 2</div></div></div><div style="position: relative; height: 52px; border-radius: 14px; background: #f1efe9; overflow: hidden"><div style="width: 27%; height: 100%; background: #d9d6cf"></div><div style="position: absolute; inset: 0; padding: 0 16px; display: flex; align-items: center; justify-content: space-between; font-weight: 800; font-size: 20px; color: #111"><span>B</span><span>27%</span></div></div></div></div>
+<div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-end; font-family: 'Space Mono', monospace; font-size: 14px; color: #666"><span>11 suara · polling ditutup</span><span>17.10.26</span></div><div style="position: absolute; left: 80px; top: 1180px; width: 400px; height: 40px; display: flex; align-items: center; padding-left: 10px"><div style="width: 34px; height: 34px; border-radius: 17px; margin-left: -10px; border: 3px solid #fff; background: #c96a8a"></div><div style="width: 34px; height: 34px; border-radius: 17px; margin-left: -10px; border: 3px solid #fff; background: #6a8ac9"></div><div style="width: 34px; height: 34px; border-radius: 17px; margin-left: -10px; border: 3px solid #fff; background: #8ac96a"></div><div style="width: 34px; height: 34px; border-radius: 17px; margin-left: -10px; border: 3px solid #fff; background: #c9a86a"></div><div style="width: 34px; height: 34px; border-radius: 17px; margin-left: -10px; border: 3px solid #fff; background: #a86ac9"></div><span style="margin-left: 12px; font-family: Outfit, sans-serif; font-size: 16px; color: #666">+3 lainnya memilih A</span></div><div style="position: absolute; left: 560px; top: 1180px; width: 440px; height: 40px; display: flex; align-items: center; justify-content: flex-end; font-family: Outfit, sans-serif; font-weight: 700; font-size: 16px; color: #18A05A">✓ kamu memilih A</div><div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.09; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFFFFF", "options": ["#FFFFFF", "#F2F0EA", "#E6F0FF"]}, "c": {"editor": "color", "default": "#18A05A", "options": ["#18A05A", "#FF3EA5", "#1F4FC0"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFFFFF', c: this.props.c ?? '#18A05A' };
+}
+}
+</script>
+</body>
+</html>

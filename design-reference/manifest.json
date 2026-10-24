@@ -1,0 +1,1887 @@
+[
+  {
+    "id": "strip-klasik",
+    "name": "Strip Klasik",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/strip-klasik.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "film-negatif",
+    "name": "Film Negatif",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/film-negatif.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "polaroid-strip",
+    "name": "Polaroid Strip",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/polaroid-strip.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "grid-pastel-4r",
+    "name": "Grid Pastel 4R",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/grid-pastel-4r.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "tiket-gig",
+    "name": "Tiket Gig",
+    "category": "Kalcer",
+    "file": "kalcer/tiket-gig.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "struk-kopi-susu",
+    "name": "Struk Kopi Susu",
+    "category": "Kalcer",
+    "file": "kalcer/struk-kopi-susu.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "zine-fotokopian",
+    "name": "Zine Fotokopian",
+    "category": "Kalcer",
+    "file": "kalcer/zine-fotokopian.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "label-thrift",
+    "name": "Label Thrift",
+    "category": "Kalcer",
+    "file": "kalcer/label-thrift.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "setlist-gig",
+    "name": "Setlist Gig",
+    "category": "Kalcer",
+    "file": "kalcer/setlist-gig.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "koleksi-tiket",
+    "name": "Koleksi Tiket",
+    "category": "Kalcer",
+    "file": "kalcer/koleksi-tiket.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "bingkai-garis",
+    "name": "Bingkai Garis",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/bingkai-garis.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "diptych",
+    "name": "Diptych",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/diptych.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "strip-hitam",
+    "name": "Strip Hitam",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/strip-hitam.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "grid-garis",
+    "name": "Grid Garis",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/grid-garis.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "enam-frame",
+    "name": "Enam Frame",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/enam-frame.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "koran-lama",
+    "name": "Koran Lama",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/koran-lama.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "kaset",
+    "name": "Kaset",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/kaset.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "vhs",
+    "name": "VHS",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/vhs.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "lembar-kontak",
+    "name": "Lembar Kontak",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/lembar-kontak.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "telinga-kelinci",
+    "name": "Telinga Kelinci",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/telinga-kelinci.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "gelembung",
+    "name": "Gelembung",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/gelembung.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "awan",
+    "name": "Awan",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/awan.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "permen",
+    "name": "Permen",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/permen.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "lembar-stiker",
+    "name": "Lembar Stiker",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/lembar-stiker.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "kalender",
+    "name": "Kalender",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/kalender.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "tiket-bioskop",
+    "name": "Tiket Bioskop",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/tiket-bioskop.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "chat",
+    "name": "Chat",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/chat.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "surat",
+    "name": "Surat",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/surat.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "berdua",
+    "name": "Berdua",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/berdua.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "scrapbook",
+    "name": "Scrapbook",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/scrapbook.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@600;700&display=swap"
+    ]
+  },
+  {
+    "id": "cover-majalah",
+    "name": "Cover Majalah",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/cover-majalah.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "spread",
+    "name": "Spread",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/spread.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "poster-film",
+    "name": "Poster Film",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/poster-film.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "lookbook",
+    "name": "Lookbook",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/lookbook.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "indeks",
+    "name": "Indeks",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/indeks.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "kontributor",
+    "name": "Kontributor",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/kontributor.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "pop-single",
+    "name": "Pop Single",
+    "category": "Bold & Pop",
+    "file": "bold-pop/pop-single.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "komik-2-panel",
+    "name": "Komik 2 Panel",
+    "category": "Bold & Pop",
+    "file": "bold-pop/komik-2-panel.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "kemasan-snack",
+    "name": "Kemasan Snack",
+    "category": "Bold & Pop",
+    "file": "bold-pop/kemasan-snack.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "komik-4-panel",
+    "name": "Komik 4 Panel",
+    "category": "Bold & Pop",
+    "file": "bold-pop/komik-4-panel.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "warna-tabrak",
+    "name": "Warna Tabrak",
+    "category": "Bold & Pop",
+    "file": "bold-pop/warna-tabrak.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "pop-grid",
+    "name": "Pop Grid",
+    "category": "Bold & Pop",
+    "file": "bold-pop/pop-grid.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "dicari",
+    "name": "Dicari",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/dicari.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Anton&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "sebelum-sesudah",
+    "name": "Sebelum Sesudah",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/sebelum-sesudah.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "level",
+    "name": "Level",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/level.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Anton&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "rapor-foto",
+    "name": "Rapor Foto",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/rapor-foto.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "tier-list",
+    "name": "Tier List",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/tier-list.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "meme-grid",
+    "name": "Meme Grid",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/meme-grid.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Rye&family=Anton&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "paspor",
+    "name": "Paspor",
+    "category": "Travel",
+    "file": "travel/paspor.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap"
+    ]
+  },
+  {
+    "id": "kartu-pos",
+    "name": "Kartu Pos",
+    "category": "Travel",
+    "file": "travel/kartu-pos.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap"
+    ]
+  },
+  {
+    "id": "tiket-kereta",
+    "name": "Tiket Kereta",
+    "category": "Travel",
+    "file": "travel/tiket-kereta.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap"
+    ]
+  },
+  {
+    "id": "koper-stiker",
+    "name": "Koper Stiker",
+    "category": "Travel",
+    "file": "travel/koper-stiker.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Playfair+Display:ital,wght@1,700&display=swap"
+    ]
+  },
+  {
+    "id": "boarding-pass",
+    "name": "Boarding Pass",
+    "category": "Travel",
+    "file": "travel/boarding-pass.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap"
+    ]
+  },
+  {
+    "id": "peta-rute",
+    "name": "Peta Rute",
+    "category": "Travel",
+    "file": "travel/peta-rute.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@600&display=swap"
+    ]
+  },
+  {
+    "id": "kartu-karakter",
+    "name": "Kartu Karakter",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/kartu-karakter.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "vs",
+    "name": "VS",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/vs.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "pilih-karakter",
+    "name": "Pilih Karakter",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/pilih-karakter.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap"
+    ]
+  },
+  {
+    "id": "hud",
+    "name": "HUD",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/hud.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/arcade.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "inventaris",
+    "name": "Inventaris",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/inventaris.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "kartu-tarot",
+    "name": "Kartu Tarot",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/kartu-tarot.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "mugshot",
+    "name": "Mugshot",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/mugshot.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "jendela-gotik",
+    "name": "Jendela Gotik",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/jendela-gotik.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "sampul-album",
+    "name": "Sampul Album",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/sampul-album.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "diary-hitam",
+    "name": "Diary Hitam",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/diary-hitam.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "papan-bukti",
+    "name": "Papan Bukti",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/papan-bukti.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "aplikasi-gambar",
+    "name": "Aplikasi Gambar",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/aplikasi-gambar.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "flip-phone",
+    "name": "Flip Phone",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/flip-phone.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Silkscreen&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "pemutar-media",
+    "name": "Pemutar Media",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/pemutar-media.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "folder-foto",
+    "name": "Folder Foto",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/folder-foto.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "photo-sticker",
+    "name": "Photo Sticker",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/photo-sticker.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Unbounded:wght@800&family=Caveat:wght@700&family=Silkscreen&display=swap"
+    ]
+  },
+  {
+    "id": "messenger-gel",
+    "name": "Messenger Gel",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/messenger-gel.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Silkscreen&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "jendela-desktop",
+    "name": "Jendela Desktop",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/jendela-desktop.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": true,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "mat-galeri",
+    "name": "Mat Galeri",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/mat-galeri.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "triptych",
+    "name": "Triptych",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/triptych.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "strip-garis-emas",
+    "name": "Strip Garis Emas",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/strip-garis-emas.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "tv-tabung",
+    "name": "TV Tabung",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/tv-tabung.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "salam-dari",
+    "name": "Salam Dari",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/salam-dari.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "lembar-perangko",
+    "name": "Lembar Perangko",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/lembar-perangko.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "panggilan-video",
+    "name": "Panggilan Video",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/panggilan-video.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "hewan-virtual",
+    "name": "Hewan Virtual",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/hewan-virtual.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "disket",
+    "name": "Disket",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/disket.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "bekal-bento",
+    "name": "Bekal Bento",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/bekal-bento.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "balon",
+    "name": "Balon",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/balon.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "rumah-kecil",
+    "name": "Rumah Kecil",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/rumah-kecil.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "piringan-hitam",
+    "name": "Piringan Hitam",
+    "category": "Kalcer",
+    "file": "kalcer/piringan-hitam.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "amplop-cuci-cetak",
+    "name": "Amplop Cuci Cetak",
+    "category": "Kalcer",
+    "file": "kalcer/amplop-cuci-cetak.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "kaset-demo",
+    "name": "Kaset Demo",
+    "category": "Kalcer",
+    "file": "kalcer/kaset-demo.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "kartu-lipat",
+    "name": "Kartu Lipat",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/kartu-lipat.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "pintu-kulkas",
+    "name": "Pintu Kulkas",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/pintu-kulkas.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@700&family=Fredoka:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "playlist-berdua",
+    "name": "Playlist Berdua",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/playlist-berdua.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Outfit:wght@500;700&display=swap"
+    ]
+  },
+  {
+    "id": "sampul-buku",
+    "name": "Sampul Buku",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/sampul-buku.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "katalog-pameran",
+    "name": "Katalog Pameran",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/katalog-pameran.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "wawancara",
+    "name": "Wawancara",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/wawancara.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "cetak-riso",
+    "name": "Cetak Riso",
+    "category": "Bold & Pop",
+    "file": "bold-pop/cetak-riso.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "empat-warna",
+    "name": "Empat Warna",
+    "category": "Bold & Pop",
+    "file": "bold-pop/empat-warna.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "mesin-gacha",
+    "name": "Mesin Gacha",
+    "category": "Bold & Pop",
+    "file": "bold-pop/mesin-gacha.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "piagam",
+    "name": "Piagam",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/piagam.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Caveat:wght@700&family=Rye&display=swap"
+    ]
+  },
+  {
+    "id": "nggak-hmm-iya",
+    "name": "Nggak Hmm Iya",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/nggak-hmm-iya.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "paket-stiker",
+    "name": "Paket Stiker",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/paket-stiker.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "kunci-hotel",
+    "name": "Kunci Hotel",
+    "category": "Travel",
+    "file": "travel/kunci-hotel.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@1,500&display=swap"
+    ]
+  },
+  {
+    "id": "jendela-pesawat",
+    "name": "Jendela Pesawat",
+    "category": "Travel",
+    "file": "travel/jendela-pesawat.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Outfit:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "plang-penunjuk",
+    "name": "Plang Penunjuk",
+    "category": "Travel",
+    "file": "travel/plang-penunjuk.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Outfit:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "konsol-genggam",
+    "name": "Konsol Genggam",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/konsol-genggam.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "kartrid-game",
+    "name": "Kartrid Game",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/kartrid-game.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Outfit:wght@700;800&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "binder-kartu",
+    "name": "Binder Kartu",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/binder-kartu.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&family=Outfit:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "cermin-antik",
+    "name": "Cermin Antik",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/cermin-antik.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@1,500&family=Special+Elite&display=swap"
+    ]
+  },
+  {
+    "id": "berkas-rahasia",
+    "name": "Berkas Rahasia",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/berkas-rahasia.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Special+Elite&family=Cinzel+Decorative:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "kartu-remi",
+    "name": "Kartu Remi",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/kartu-remi.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Playfair+Display:wght@700;900&display=swap"
+    ]
+  },
+  {
+    "id": "pas-foto-studio",
+    "name": "Pas Foto Studio",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/pas-foto-studio.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "bingkai-oval",
+    "name": "Bingkai Oval",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/bingkai-oval.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "garis-waktu",
+    "name": "Garis Waktu",
+    "category": "Klasik & Minimalis",
+    "file": "klasik-minimalis/garis-waktu.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "kamera-instan",
+    "name": "Kamera Instan",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/kamera-instan.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=IBM+Plex+Mono:wght@400;600&family=Caveat:wght@700&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "radio-kaset",
+    "name": "Radio Kaset",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/radio-kaset.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=IBM+Plex+Mono:wght@400;600&family=Caveat:wght@700&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "etalase-toko-foto",
+    "name": "Etalase Toko Foto",
+    "category": "Retro & Vintage",
+    "file": "retro-vintage/etalase-toko-foto.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=IBM+Plex+Mono:wght@400;600&family=Caveat:wght@700&family=VT323&display=swap"
+    ]
+  },
+  {
+    "id": "voucher-pulsa",
+    "name": "Voucher Pulsa",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/voucher-pulsa.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Space+Mono:wght@400;700&family=Bagel+Fat+One&family=Silkscreen&display=swap"
+    ]
+  },
+  {
+    "id": "cd-single",
+    "name": "CD Single",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/cd-single.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Space+Mono:wght@400;700&family=Bagel+Fat+One&family=Silkscreen&display=swap"
+    ]
+  },
+  {
+    "id": "kotak-masuk-mms",
+    "name": "Kotak Masuk MMS",
+    "category": "Y2K & Aesthetic",
+    "file": "y2k-aesthetic/kotak-masuk-mms.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&family=Outfit:wght@600;800&family=Bagel+Fat+One&display=swap"
+    ]
+  },
+  {
+    "id": "kotak-susu",
+    "name": "Kotak Susu",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/kotak-susu.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "piknik",
+    "name": "Piknik",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/piknik.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "toples-kue",
+    "name": "Toples Kue",
+    "category": "Cute & Kawaii",
+    "file": "cute-kawaii/toples-kue.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Caprasimo&family=Nunito:wght@600;800&display=swap"
+    ]
+  },
+  {
+    "id": "papan-menu-kopi",
+    "name": "Papan Menu Kopi",
+    "category": "Kalcer",
+    "file": "kalcer/papan-menu-kopi.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Archivo+Black&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "backstage-pass",
+    "name": "Backstage Pass",
+    "category": "Kalcer",
+    "file": "kalcer/backstage-pass.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&display=swap"
+    ]
+  },
+  {
+    "id": "dinding-stiker",
+    "name": "Dinding Stiker",
+    "category": "Kalcer",
+    "file": "kalcer/dinding-stiker.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Permanent+Marker&family=Archivo+Black&family=Rubik+Mono+One&family=Pacifico&family=DM+Serif+Display&display=swap"
+    ]
+  },
+  {
+    "id": "jemuran-foto",
+    "name": "Jemuran Foto",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/jemuran-foto.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "tiket-wahana",
+    "name": "Tiket Wahana",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/tiket-wahana.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Anton&display=swap"
+    ]
+  },
+  {
+    "id": "gelang-manik",
+    "name": "Gelang Manik",
+    "category": "Bestie & Couple",
+    "file": "bestie-couple/gelang-manik.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Caveat:wght@700&family=Nunito:wght@800&display=swap"
+    ]
+  },
+  {
+    "id": "kolom-opini",
+    "name": "Kolom Opini",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/kolom-opini.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "poster-pameran",
+    "name": "Poster Pameran",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/poster-pameran.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "foto-esai",
+    "name": "Foto Esai",
+    "category": "Editorial & Majalah",
+    "file": "editorial-majalah/foto-esai.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,800;1,6..96,400&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    ]
+  },
+  {
+    "id": "mesin-minuman",
+    "name": "Mesin Minuman",
+    "category": "Bold & Pop",
+    "file": "bold-pop/mesin-minuman.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "billboard-kota",
+    "name": "Billboard Kota",
+    "category": "Bold & Pop",
+    "file": "bold-pop/billboard-kota.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "sampul-komik",
+    "name": "Sampul Komik",
+    "category": "Bold & Pop",
+    "file": "bold-pop/sampul-komik.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Bangers&family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "twit-viral",
+    "name": "Twit Viral",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/twit-viral.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Outfit:wght@500;700;800&display=swap"
+    ]
+  },
+  {
+    "id": "polling",
+    "name": "Polling",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/polling.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Outfit:wght@500;700;800&display=swap"
+    ]
+  },
+  {
+    "id": "badan-hewan",
+    "name": "Badan Hewan",
+    "category": "Meme & Lucu",
+    "file": "meme-lucu/badan-hewan.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "jendela-kereta",
+    "name": "Jendela Kereta",
+    "category": "Travel",
+    "file": "travel/jendela-kereta.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "buku-panduan",
+    "name": "Buku Panduan",
+    "category": "Travel",
+    "file": "travel/buku-panduan.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "rak-kartu-pos",
+    "name": "Rak Kartu Pos",
+    "category": "Travel",
+    "file": "travel/rak-kartu-pos.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 4,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Space+Mono:wght@400;700&family=Caveat:wght@700&display=swap"
+    ]
+  },
+  {
+    "id": "mesin-capit",
+    "name": "Mesin Capit",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/mesin-capit.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&family=Outfit:wght@700;800&display=swap"
+    ]
+  },
+  {
+    "id": "pilih-lintasan",
+    "name": "Pilih Lintasan",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/pilih-lintasan.html",
+    "width": 1200,
+    "height": 1800,
+    "photoCount": 6,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Russo+One&family=Orbitron:wght@700;900&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "kotak-game",
+    "name": "Kotak Game",
+    "category": "Gaming & Pixel",
+    "file": "gaming-pixel/kotak-game.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=Space+Mono:wght@400;700&family=Outfit:wght@700;800&display=swap"
+    ]
+  },
+  {
+    "id": "negatif-terbakar",
+    "name": "Negatif Terbakar",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/negatif-terbakar.html",
+    "width": 600,
+    "height": 1800,
+    "photoCount": 3,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Special+Elite&family=UnifrakturMaguntia&family=Space+Mono:wght@400;700&display=swap"
+    ]
+  },
+  {
+    "id": "buku-mantra",
+    "name": "Buku Mantra",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/buku-mantra.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 1,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Cormorant+Garamond:ital,wght@1,500&family=UnifrakturMaguntia&display=swap"
+    ]
+  },
+  {
+    "id": "jendela-hujan",
+    "name": "Jendela Hujan",
+    "category": "Dark & Grunge",
+    "file": "dark-grunge/jendela-hujan.html",
+    "width": 1080,
+    "height": 1350,
+    "photoCount": 2,
+    "usesLoops": false,
+    "fonts": [
+      "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Special+Elite&family=Cormorant+Garamond:ital,wght@1,500&family=UnifrakturMaguntia&display=swap"
+    ]
+  }
+]

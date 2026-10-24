@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Piagam</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;family=Caveat:wght@700&amp;family=Rye&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#2a2118}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 60px; background: {{bg}}; font-family: 'Space Mono', monospace; color: #2a2118">
+<div style="height: 1230px; box-sizing: border-box; padding: 26px; background: #FBF6E8; border: 3px solid #B8963E">
+<div style="height: 100%; box-sizing: border-box; padding: 50px 60px; border: 1px solid #B8963E; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center">
+<span style="font-family: 'Rye', Georgia, serif; font-size: 72px; line-height: 1">Piagam Penghargaan</span>
+<span style="font-size: 16px; letter-spacing: 0.25em">DIBERIKAN KEPADA</span>
+<div style="width: 520px; padding: 12px; border: 2px solid #B8963E"><div style="height: 520px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #ECE6D4; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #6b5d48"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div></div>
+<span style="font-family: 'Caveat', cursive; font-size: 64px; line-height: 1">[NAMA]</span>
+<span style="font-size: 18px">atas prestasi luar biasa dalam bidang</span>
+<span style="font-family: 'Anton', Impact, sans-serif; font-size: 44px">[BIDANG PRESTASI]</span>
+<div style="flex: 1; width: 100%; display: flex; justify-content: space-between; align-items: flex-end">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span style="font-family: 'Caveat', cursive; font-size: 34px">[tanda tangan]</span><div style="width: 220px; height: 2px; background: #2a2118"></div><span style="font-size: 13px">ketua panitia</span></div>
+<div style="width: 130px; height: 130px; border-radius: 50%; background: radial-gradient(circle at 40% 35%, #f0d27a, #B8963E 70%); display: flex; align-items: center; justify-content: center; font-family: 'Rye', Georgia, serif; font-size: 20px; color: #5a4310; box-shadow: 0 4px 8px rgba(0,0,0,0.2)">2026</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span style="font-size: 18px">17.10.2026</span><div style="width: 220px; height: 2px; background: #2a2118"></div><span style="font-size: 13px">tanggal</span></div></div></div></div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#2E4A3A", "options": ["#2E4A3A", "#5A1E24", "#1E2A4A"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#2E4A3A' };
+}
+}
+</script>
+</body>
+</html>

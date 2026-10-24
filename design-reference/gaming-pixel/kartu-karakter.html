@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Kartu Karakter</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Silkscreen&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#ffffff}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 70px; background: {{bg}}; font-family: 'Silkscreen', monospace; color: #ffffff">
+<div style="height: 1210px; box-sizing: border-box; padding: 40px; background: #1B1B2F; box-shadow: 0 -8px 0 0 #ffffff, 0 8px 0 0 #ffffff, -8px 0 0 0 #ffffff, 8px 0 0 0 #ffffff; display: flex; flex-direction: column; gap: 26px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span style="font-family: 'Press Start 2P', monospace; font-size: 34px">[NAMA]</span><span style="font-family: 'Press Start 2P', monospace; font-size: 22px; color: #FFD23F">LV 17</span></div>
+<div style="height: 690px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #2A2A44; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #9a9ac0"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-family: 'Silkscreen', monospace; font-size: 18px; font-weight: 700">FOTO</div></div>
+<div style="font-size: 26px">kelas: [KELAS] · elemen: [ELEMEN]</div><div style="font-family: 'Press Start 2P', monospace; font-size: 22px; color: #FFD23F; margin-top: -12px">★★★★☆ LANGKA</div>
+<div style="display: flex; align-items: center; gap: 14px"><span style="width: 60px; font-family: 'Press Start 2P', monospace; font-size: 16px">HP</span><div style="flex: 1; height: 22px; background: #2e2e48; box-shadow: 0 -3px 0 0 #ffffff, 0 3px 0 0 #ffffff, -3px 0 0 0 #ffffff, 3px 0 0 0 #ffffff"><div style="width: 86%; height: 100%; background: #3FD97A"></div></div></div><div style="display: flex; align-items: center; gap: 14px"><span style="width: 60px; font-family: 'Press Start 2P', monospace; font-size: 16px">MP</span><div style="flex: 1; height: 22px; background: #2e2e48; box-shadow: 0 -3px 0 0 #ffffff, 0 3px 0 0 #ffffff, -3px 0 0 0 #ffffff, 3px 0 0 0 #ffffff"><div style="width: 62%; height: 100%; background: #3F9BFF"></div></div></div><div style="display: flex; align-items: center; gap: 14px"><span style="width: 60px; font-family: 'Press Start 2P', monospace; font-size: 16px">XP</span><div style="flex: 1; height: 22px; background: #2e2e48; box-shadow: 0 -3px 0 0 #ffffff, 0 3px 0 0 #ffffff, -3px 0 0 0 #ffffff, 3px 0 0 0 #ffffff"><div style="width: 40%; height: 100%; background: #FFD23F"></div></div></div><div style="display: flex; gap: 18px"><div style="flex: 1; display: flex; align-items: center; gap: 12px; padding: 10px; background: #2e2e48; box-shadow: 0 -3px 0 0 #fff, 0 3px 0 0 #fff, -3px 0 0 0 #fff, 3px 0 0 0 #fff"><div style="width: 24px; height: 24px; background: #FF4F6B"></div><span style="font-size: 16px">[SKILL]</span></div><div style="flex: 1; display: flex; align-items: center; gap: 12px; padding: 10px; background: #2e2e48; box-shadow: 0 -3px 0 0 #fff, 0 3px 0 0 #fff, -3px 0 0 0 #fff, 3px 0 0 0 #fff"><div style="width: 24px; height: 24px; background: #3F9BFF"></div><span style="font-size: 16px">[SKILL]</span></div><div style="flex: 1; display: flex; align-items: center; gap: 12px; padding: 10px; background: #2e2e48; box-shadow: 0 -3px 0 0 #fff, 0 3px 0 0 #fff, -3px 0 0 0 #fff, 3px 0 0 0 #fff"><div style="width: 24px; height: 24px; background: #3FD97A"></div><span style="font-size: 16px">[SKILL]</span></div></div>
+</div><div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(transparent 0 3px, rgba(0,0,0,0.10) 3px 4px), radial-gradient(ellipse at 50% 50%, transparent 60%, rgba(0,0,0,0.35) 100%)"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#5B3FD9", "options": ["#5B3FD9", "#D93F6B", "#1F8A70"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#5B3FD9' };
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Nggak Hmm Iya</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#222}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 1800px; box-sizing: border-box; padding: 50px 40px; background: {{bg}}; display: flex; flex-direction: column; gap: 24px; font-family: 'Space Mono', monospace; color: #111">
+<span style="font-family: 'Anton', Impact, sans-serif; font-size: 48px; line-height: 1">ketika [SITUASI]</span>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: 4px solid #111; height: 470px"><div style="border-right: 4px solid #111"><div style="height: 462px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 1</div></div></div><div style="background: #fff; display: flex; flex-direction: column; justify-content: center; padding: 20px; gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 64px; line-height: 1; color: #E2483C">nggak.</span><span style="font-size: 14px">[TEKS]</span></div></div><div style="display: grid; grid-template-columns: 1fr 1fr; border: 4px solid #111; height: 470px"><div style="border-right: 4px solid #111"><div style="height: 462px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 2</div></div></div><div style="background: #fff; display: flex; flex-direction: column; justify-content: center; padding: 20px; gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 64px; line-height: 1; color: #E8A33C">hmm.</span><span style="font-size: 14px">[TEKS]</span></div></div><div style="display: grid; grid-template-columns: 1fr 1fr; border: 4px solid #111; height: 470px"><div style="border-right: 4px solid #111"><div style="height: 462px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5f5c56"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 3</div></div></div><div style="background: #fff; display: flex; flex-direction: column; justify-content: center; padding: 20px; gap: 12px"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 64px; line-height: 1; color: #18A05A">iya.</span><span style="font-size: 14px">[TEKS]</span></div></div>
+<div style="flex: 1; display: flex; align-items: flex-end; justify-content: space-between; font-size: 13px"><span>@[USER]</span><span>17.10.26</span></div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFFFFF", "options": ["#FFFFFF", "#FFF3B0", "#E6F0FF"]}, "$preview": {"width": 600, "height": 1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFFFFF' };
+}
+}
+</script>
+</body>
+</html>

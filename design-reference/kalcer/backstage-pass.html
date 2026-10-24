@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Backstage Pass</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;family=Permanent+Marker&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1c1b19}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; background: linear-gradient(160deg, {{bg}}, #1a1a1a); font-family: 'Space Mono', monospace; color: #1c1b19; overflow: hidden">
+<div style="position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 15%, rgba(255,80,60,0.25), transparent 45%), radial-gradient(ellipse at 20% 80%, rgba(60,120,255,0.18), transparent 45%)"></div>
+<div style="position: absolute; left: 420px; top: -40px; width: 50px; height: 300px; background: repeating-linear-gradient(0deg, #111 0 30px, {{c}} 30px 60px); transform: rotate(-14deg); transform-origin: bottom"></div>
+<div style="position: absolute; left: 610px; top: -40px; width: 50px; height: 300px; background: repeating-linear-gradient(0deg, #111 0 30px, {{c}} 30px 60px); transform: rotate(14deg); transform-origin: bottom"></div>
+<div style="position: absolute; left: 495px; top: 220px; width: 90px; height: 60px; border-radius: 10px; background: linear-gradient(180deg, #f4f6f8 0%, #b9c0c8 30%, #6f777f 50%, #d9dee3 70%, #8f969d 100%); box-shadow: 0 4px 6px rgba(0,0,0,0.5)"><div style="margin: 18px auto 0; width: 40px; height: 22px; border-radius: 11px; border: 5px solid #6f777f"></div></div>
+<div style="position: absolute; left: 230px; top: 290px; width: 620px; height: 960px; border-radius: 26px; background: linear-gradient(115deg, rgba(255,255,255,0.35), rgba(255,255,255,0.08) 35%, rgba(255,255,255,0.15)); box-shadow: inset 0 0 0 3px rgba(255,255,255,0.6), 0 30px 50px rgba(0,0,0,0.6); padding: 18px; box-sizing: border-box">
+<div style="position: absolute; left: 270px; top: 24px; width: 80px; height: 18px; border-radius: 9px; background: rgba(0,0,0,0.6)"></div>
+<div style="height: 100%; border-radius: 14px; background: #F4EFE3; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: {{c}}; display: flex; flex-direction: column; justify-content: flex-end; padding: 0 30px 18px; color: #fff"><span style="font-family: 'Anton', Impact, sans-serif; font-size: 86px; line-height: 0.9">ALL ACCESS</span></div>
+<div style="padding: 26px 30px 0; display: flex; gap: 22px"><div style="width: 260px"><div style="height: 330px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #d8d0b8; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5c574b; filter: grayscale(1) contrast(1.15)"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 10px; font-size: 14px"><span style="font-size: 11px; color: #6b6255">NAMA</span><span style="font-family: 'Permanent Marker', cursive; font-size: 32px; line-height: 1">[NAMA]</span><span style="font-size: 11px; color: #6b6255">PERAN</span><span style="font-weight: 700">kru panggung</span><span style="font-size: 11px; color: #6b6255">TUR</span><span style="font-weight: 700">[NAMA BAND] 2026</span></div></div>
+<div style="margin: 24px 30px 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px"><div style="padding: 10px 0; text-align: center; border: 2px solid #1c1b19; font-family: 'Anton', Impact, sans-serif; font-size: 20px; background: #1c1b19; color: #F4EFE3">PANGGUNG</div><div style="padding: 10px 0; text-align: center; border: 2px solid #1c1b19; font-family: 'Anton', Impact, sans-serif; font-size: 20px; background: #1c1b19; color: #F4EFE3">BACKSTAGE</div><div style="padding: 10px 0; text-align: center; border: 2px solid #1c1b19; font-family: 'Anton', Impact, sans-serif; font-size: 20px; background: #1c1b19; color: #F4EFE3">GREEN ROOM</div><div style="padding: 10px 0; text-align: center; border: 2px solid #1c1b19; font-family: 'Anton', Impact, sans-serif; font-size: 20px; ">FOH</div></div>
+<div style="margin: auto 30px 26px; display: flex; justify-content: space-between; align-items: center"><div style="width: 220px; height: 50px; background: repeating-linear-gradient(90deg, #1c1b19 0 3px, transparent 3px 5px, #1c1b19 5px 6px, transparent 6px 10px, #1c1b19 10px 14px, transparent 14px 16px)"></div><div style="width: 90px; height: 90px; border-radius: 50%; background: conic-gradient(from 0deg, #ff9acd, #9ad6ff, #c8ff9a, #ffe59a, #ff9acd); opacity: 0.8; box-shadow: inset 0 0 0 6px rgba(255,255,255,0.5)"></div></div></div></div></div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#2a2a2a", "options": ["#2a2a2a", "#2F3A52", "#3a2a2a"]}, "c": {"editor": "color", "default": "#E8553D", "options": ["#E8553D", "#2F6BFF", "#18A05A"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#2a2a2a', c: this.props.c ?? '#E8553D' };
+}
+}
+</script>
+</body>
+</html>

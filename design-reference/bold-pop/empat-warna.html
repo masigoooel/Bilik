@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Empat Warna</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#111}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1200px; height: 1800px; box-sizing: border-box; padding: 80px; background: {{bg}}; display: flex; flex-direction: column; gap: 40px; font-family: 'Space Mono', monospace; color: #111">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0"><div style="position: relative; background: #FF8FD1; padding: 20px; border: 6px solid #111"><div style="height: 600px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 1</div></div><div style="position: absolute; inset: 20px; background: rgba(255,0,120,0.35); mix-blend-mode: multiply"></div></div><div style="position: relative; background: #FFD600; padding: 20px; border: 6px solid #111"><div style="height: 600px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 2</div></div><div style="position: absolute; inset: 20px; background: rgba(255,200,0,0.35); mix-blend-mode: multiply"></div></div><div style="position: relative; background: #3FB8FF; padding: 20px; border: 6px solid #111"><div style="height: 600px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 3</div></div><div style="position: absolute; inset: 20px; background: rgba(0,140,255,0.35); mix-blend-mode: multiply"></div></div><div style="position: relative; background: #7CE05A; padding: 20px; border: 6px solid #111"><div style="height: 600px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #E8E6E0; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #555"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO 4</div></div><div style="position: absolute; inset: 20px; background: rgba(60,200,40,0.35); mix-blend-mode: multiply"></div></div></div>
+<div style="flex: 1; display: flex; justify-content: space-between; align-items: flex-end"><span style="font-family: 'Bangers', Impact, sans-serif; font-size: 110px; line-height: 0.85">[NAMA] x4</span><span style="font-size: 18px; font-weight: 700">cetak saring · 2026</span></div><div data-detail="1" style="position: absolute; inset: 0; pointer-events: none; background: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1.6px) 0 0 / 6px 6px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#FFFFFF", "options": ["#FFFFFF", "#111111", "#FFF3B0"]}, "$preview": {"width": 1200, "height": 1800}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#FFFFFF' };
+}
+}
+</script>
+</body>
+</html>

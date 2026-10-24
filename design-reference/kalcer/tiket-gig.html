@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tiket Gig</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Space+Mono:wght@400;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1c1b19}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 60px; background: #1c1b19; font-family: 'Space Mono', 'Courier New', monospace; color: #1c1b19">
+<div style="position: relative; width: 960px; height: 1230px; box-sizing: border-box; padding: 44px 40px 36px; background: #F1E9D2; border-radius: 18px; display: flex; flex-direction: column; gap: 22px">
+<div style="display: flex; justify-content: space-between; align-items: flex-end">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<div style="font-size: 18px; font-weight: 700; letter-spacing: 0.3em">ADMIT ONE</div>
+<div style="font-family: 'Anton', Impact, sans-serif; font-size: 92px; line-height: 0.9; text-transform: uppercase">live session</div>
+</div>
+<div style="padding: 10px 16px; background: {{accent}}; color: #1c1b19; font-size: 18px; font-weight: 700; transform: rotate(4deg)">SOLD OUT</div>
+</div>
+<div style="width: 880px; height: 640px; background: #d8d0b8; border: 4px solid #1c1b19; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #5c574b">
+<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+<div style="font-size: 20px; font-weight: 700">FOTO</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; border-top: 3px solid #1c1b19; padding-top: 16px">
+<div style="display: flex; flex-direction: column; gap: 4px"><div style="font-size: 14px">VENUE</div><div style="font-size: 22px; font-weight: 700">[NAMA TEMPAT]</div></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><div style="font-size: 14px">TANGGAL</div><div style="font-size: 22px; font-weight: 700">17.10.26</div></div>
+<div style="display: flex; flex-direction: column; gap: 4px"><div style="font-size: 14px">PINTU BUKA</div><div style="font-size: 22px; font-weight: 700">20:00 WIB</div></div>
+</div>
+<div style="position: relative; height: 4px; margin: 8px -40px 0; border-top: 4px dashed #1c1b19"></div>
+<div style="flex: 1; display: flex; justify-content: space-between; align-items: center">
+<div style="display: flex; align-items: flex-end; gap: 4px; height: 110px">
+<sc-for list="{{bars}}" as="b" hint-placeholder-count="40">
+<div style="width: {{b.w}}; height: 110px; background: #1c1b19; margin-right: {{b.gap}}"></div>
+</sc-for>
+</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px">
+<div style="font-size: 16px">NO. SERI</div>
+<div style="font-family: 'Anton', Impact, sans-serif; font-size: 56px; line-height: 1">#0017</div>
+<div style="font-size: 14px">standing area</div>
+</div>
+</div>
+<div style="position: absolute; left: -26px; top: 918px; width: 52px; height: 52px; border-radius: 50%; background: #1c1b19"></div>
+<div style="position: absolute; right: -26px; top: 918px; width: 52px; height: 52px; border-radius: 50%; background: #1c1b19"></div>
+</div>
+<div style="position: absolute; left: 600px; top: 1040px; width: 130px; height: 130px; border-radius: 50%; border: 5px solid #C0311F; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #C0311F; font-family: 'Anton', Impact, sans-serif; font-size: 28px; line-height: 1; transform: rotate(-14deg); opacity: 0.85"><span>MASUK</span><span style="font-family: 'Space Mono', monospace; font-size: 14px; font-weight: 700">17.10.26</span></div><div style="position: absolute; left: 520px; top: 1190px; width: 36px; height: 36px; border-radius: 50%; background: #1c1b19"></div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C8F03C","options":["#C8F03C","#FF6A2B","#FF4FA3","#4FB3FF"]},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+const pattern = [3,1,2,4,1,1,3,2,1,4,2,1,1,3,1,2,4,1,2,1,3,1,1,4,2,1,3,2,1,1,4,1,2,3,1,2,1,4,1,3];
+const bars = pattern.map((w, i) => ({ w: w * 3 + 'px', gap: (i % 3 === 0 ? 4 : 1) + 'px' }));
+return { accent: this.props.accent ?? '#C8F03C', bars: bars };
+}
+}
+</script>
+</body>
+</html>

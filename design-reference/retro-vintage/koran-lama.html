@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Koran Lama</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&amp;family=IBM+Plex+Mono:wght@400;600&amp;family=Permanent+Marker&amp;family=VT323&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#222}a:hover{color:#000}
+</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 60px 70px; background: {{bg}}; display: flex; flex-direction: column; gap: 18px; font-family: 'IBM Plex Mono', 'Courier New', monospace; color: #1d1b17">
+<div style="text-align: center; font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: 116px; line-height: 1; border-bottom: 4px double #1d1b17; padding-bottom: 14px">HARIAN FOTO</div>
+<div style="display: flex; justify-content: space-between; font-size: 16px; border-bottom: 1px solid #1d1b17; padding-bottom: 10px"><span>Sabtu, 17 Oktober 2026</span><span>cerah berawan, 31°C</span><span>Edisi 07 · Rp 5.000</span></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><span style="align-self: flex-start; padding: 3px 10px; background: #1d1b17; color: {{bg}}; font-size: 14px; font-weight: 600; letter-spacing: 0.2em">LAPORAN KHUSUS</span><div style="font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 58px; line-height: 1.05">[JUDUL BERITA]</div></div>
+<div style="height: 640px; flex-shrink: 0; box-sizing: border-box; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12), inset 0 3px 8px rgba(0,0,0,0.16); background: #D6D0C2; border: none; border-radius: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: #5a554a; filter: grayscale(1)"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><circle cx="12" cy="13" r="4"></circle></svg><div style="font-size: 18px; font-weight: 700">FOTO</div></div>
+<div style="display: flex; justify-content: space-between; font-size: 15px; font-style: italic; border-bottom: 1px solid #1d1b17; padding-bottom: 8px"><span>Foto: [NAMA FOTOGRAFER]</span><span>hal. 1 · bersambung ke hal. 7</span></div>
+<div style="flex: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<div style="display: flex"><div style="flex: 1; background: repeating-linear-gradient(#b9b2a2 0 6px, transparent 6px 18px)"></div></div><div style="display: flex"><div style="flex: 1; background: repeating-linear-gradient(#b9b2a2 0 6px, transparent 6px 18px)"></div></div><div style="display: flex; flex-direction: column; gap: 12px"><div style="flex: 1; background: repeating-linear-gradient(#b9b2a2 0 6px, transparent 6px 18px)"></div><div style="padding: 12px; border: 3px double #1d1b17; text-align: center; font-size: 13px; line-height: 1.3"><b style="font-size: 18px">IKLAN</b><br>[NAMA TOKO]<br>buka tiap hari</div></div></div>
+<div data-texture="1" style="position: absolute; inset: 0; pointer-events: none; opacity: 0.14; mix-blend-mode: multiply; background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Cfilter%20id%3D%22n%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%222%22%20stitchTiles%3D%22stitch%22/%3E%3CfeColorMatrix%20type%3D%22saturate%22%20values%3D%220%22/%3E%3C/filter%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20filter%3D%22url%28%23n%29%22/%3E%3C/svg%3E'); background-size: 300px 300px"></div>
+<div style="position: absolute; left: 0; top: 664px; width: 1080px; height: 24px; background: linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.10) 45%, rgba(255,255,255,0.35) 55%, rgba(0,0,0,0) 100%); pointer-events: none"></div><div style="position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, transparent 60%, rgba(150,110,40,0.22) 100%); pointer-events: none"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"bg": {"editor": "color", "default": "#EDE7D9", "options": ["#EDE7D9", "#E4DCC8", "#F2F0EA"]}, "$preview": {"width": 1080, "height": 1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { bg: this.props.bg ?? '#EDE7D9' };
+}
+}
+</script>
+</body>
+</html>
